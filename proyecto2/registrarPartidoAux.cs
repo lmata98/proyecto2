@@ -16,7 +16,8 @@ namespace proyecto2
 
         private void Cambios_Click(object sender, EventArgs e)
         {
-            RegistrarCambios cambio = new RegistrarCambios();
+            RegistrarCambios cambio = new RegistrarCambios(equipo1,equipo2,idPartido);
+            cambio.Show();
         }
 
         public registrarPartidoAux(string e1, string e2, string idP)
