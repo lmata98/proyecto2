@@ -76,11 +76,41 @@
     <Compile Include="confederaciones.Designer.cs">
       <DependentUpon>confederaciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="EquipoTecnico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="EquipoTecnico.Designer.cs">
+      <DependentUpon>EquipoTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinRepo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinRepo.Designer.cs">
+      <DependentUpon>MinRepo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarCambios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarCambios.Designer.cs">
+      <DependentUpon>RegistrarCambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registrarPenales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrarPenales.Designer.cs">
+      <DependentUpon>registrarPenales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroCuerpoArbitral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroCuerpoArbitral.Designer.cs">
+      <DependentUpon>RegistroCuerpoArbitral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JugadoresT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JugadoresT.Designer.cs">
+      <DependentUpon>JugadoresT.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -96,11 +126,44 @@
     <Compile Include="RegistrarPartido.Designer.cs">
       <DependentUpon>RegistrarPartido.cs</DependentUpon>
     </Compile>
+    <Compile Include="registrarPartidoAux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrarPartidoAux.Designer.cs">
+      <DependentUpon>registrarPartidoAux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registroGoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registroGoles.Designer.cs">
+      <DependentUpon>registroGoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registroTarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registroTarjetas.Designer.cs">
+      <DependentUpon>registroTarjetas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="confederaciones.resx">
       <DependentUpon>confederaciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="EquipoTecnico.resx">
+      <DependentUpon>EquipoTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinRepo.resx">
+      <DependentUpon>MinRepo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarCambios.resx">
+      <DependentUpon>RegistrarCambios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrarPenales.resx">
+      <DependentUpon>registrarPenales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroCuerpoArbitral.resx">
+      <DependentUpon>RegistroCuerpoArbitral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JugadoresT.resx">
+      <DependentUpon>JugadoresT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -116,6 +179,15 @@
     </Compile>
     <EmbeddedResource Include="RegistrarPartido.resx">
       <DependentUpon>RegistrarPartido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrarPartidoAux.resx">
+      <DependentUpon>registrarPartidoAux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registroGoles.resx">
+      <DependentUpon>registroGoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registroTarjetas.resx">
+      <DependentUpon>registroTarjetas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

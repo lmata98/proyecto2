@@ -27,30 +27,44 @@ namespace proyecto2
         private void button1_Click(object sender, EventArgs e)
         {
 
-           /* string oradb = "DATA SOURCE=localhost:1521/XE;USER ID=SYSTEM; Password = toma;";
+           /*  string oradb = "DATA SOURCE=localhost:1521/XE;USER ID=SYSTEM; Password = toma;";
 
-            OracleConnection conn = new OracleConnection(oradb); // C#
+             OracleConnection conn = new OracleConnection(oradb); // C#
 
-            conn.Open();
+             conn.Open();
 
-            OracleCommand cmd = new OracleCommand();
+             OracleCommand cmd = new OracleCommand();
 
-            cmd.Connection = conn;
+             cmd.Connection = conn;
+            string aux = "";
+            aux = textBox1.Text;
+            cmd.CommandText = "select SEDES.NOMBRESEDE from partidos,sedes  where SEDES.NOMBRESEDE = PARTIDOS.NOMBRESEDE and PARTIDOS.NUMEROPARTIDO ="+ aux; cmd.CommandType = CommandType.Text;
 
-            cmd.CommandText = "select CONFEDERACIONES.NOMBRE as Confederación, CODIGO ,EQUIPOS.NOMBREPAIS as Países  from EQUIPOS,CONFEDERACIONES where  EQUIPOS.IDCONFEDERACIONES = CONFEDERACIONES.CODIGO order by (CONFEDERACIONES.NOMBRE )  "; cmd.CommandType = CommandType.Text;
+             OracleDataReader dr = cmd.ExecuteReader();
 
-            OracleDataReader dr = cmd.ExecuteReader();
+            string datos="";
+           // dr.Read();
+            //datos += dr.GetString(0);
+             while (dr.Read())
+             {
+                 datos += dr.GetString(0);
+             }
+            if (datos != "")
+            {
+                // label1.Text = dr.GetString(0);
+                MessageBox.Show(datos);
+            }
+            else
+            {
+                MessageBox.Show("Vacio");
+            }
+             conn.Dispose();
+         }/*/
 
-            dr.Read();
 
-           // label1.Text = dr.GetString(0);
-            MessageBox.Show(dr.GetString(0));
-            conn.Dispose();
-        }*/
-        
-        
-        con.Open();
-            String valor = textBox1.Text;
+            con.Open();
+            string valor = textBox1.Text;
+            valor = valor.ToUpper();
             if (valor == "")
             {
                 try
@@ -67,8 +81,6 @@ namespace proyecto2
 
                 }
                 
-  
-
             }
             else
             {

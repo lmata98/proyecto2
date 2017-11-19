@@ -16,7 +16,7 @@ namespace proyecto2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Principal());
+            Application.Run(new EquipoTecnico("CD1","CD2","13"));
         }
     }
 }
