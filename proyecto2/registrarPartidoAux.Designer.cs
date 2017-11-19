@@ -46,6 +46,7 @@
             this.registroGoles.TabIndex = 0;
             this.registroGoles.Text = "Registrar Goles";
             this.registroGoles.UseVisualStyleBackColor = false;
+            this.registroGoles.Click += new System.EventHandler(this.registroGoles_Click);
             // 
             // registroTarjeta
             // 

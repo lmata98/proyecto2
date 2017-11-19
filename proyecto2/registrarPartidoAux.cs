@@ -20,6 +20,13 @@ namespace proyecto2
             cambio.Show();
         }
 
+        private void registroGoles_Click(object sender, EventArgs e)
+        {
+            registroGoles goles = new registroGoles(equipo1, equipo2,idPartido);
+            goles.Show();
+
+        }
+
         public registrarPartidoAux(string e1, string e2, string idP)
         {
             InitializeComponent();
