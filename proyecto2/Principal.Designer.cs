@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.Confe_Equipo = new System.Windows.Forms.Button();
             this.BtnRegPartido = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Confe_Equipo
@@ -56,12 +57,25 @@
             this.BtnRegPartido.UseVisualStyleBackColor = true;
             this.BtnRegPartido.Click += new System.EventHandler(this.BtnRegPartido_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ImageKey = "(ninguno)";
+            this.button1.Location = new System.Drawing.Point(210, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 64);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Ver informe del partido";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(725, 509);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnRegPartido);
             this.Controls.Add(this.Confe_Equipo);
             this.Name = "Principal";
@@ -74,5 +88,6 @@
 
         private System.Windows.Forms.Button Confe_Equipo;
         private System.Windows.Forms.Button BtnRegPartido;
+        private System.Windows.Forms.Button button1;
     }
 }

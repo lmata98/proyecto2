@@ -82,11 +82,23 @@
     <Compile Include="EquipoTecnico.Designer.cs">
       <DependentUpon>EquipoTecnico.cs</DependentUpon>
     </Compile>
+    <Compile Include="InformePartido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformePartido.Designer.cs">
+      <DependentUpon>InformePartido.cs</DependentUpon>
+    </Compile>
     <Compile Include="MinRepo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MinRepo.Designer.cs">
       <DependentUpon>MinRepo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinutosExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinutosExtra.Designer.cs">
+      <DependentUpon>MinutosExtra.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarCambios.cs">
       <SubType>Form</SubType>
@@ -150,8 +162,14 @@
     <EmbeddedResource Include="EquipoTecnico.resx">
       <DependentUpon>EquipoTecnico.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InformePartido.resx">
+      <DependentUpon>InformePartido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MinRepo.resx">
       <DependentUpon>MinRepo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinutosExtra.resx">
+      <DependentUpon>MinutosExtra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarCambios.resx">
       <DependentUpon>RegistrarCambios.cs</DependentUpon>

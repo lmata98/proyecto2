@@ -31,5 +31,11 @@ namespace proyecto2
             RegistrarPartido NuevoPartido = new RegistrarPartido();
             NuevoPartido.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            InformePartido partido = new InformePartido();
+            partido.Show();
+        }
     }
 }

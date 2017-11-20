@@ -64,6 +64,7 @@
             this.label5.Size = new System.Drawing.Size(75, 18);
             this.label5.TabIndex = 22;
             this.label5.Text = "Segundos";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // SegundosText
             // 
@@ -71,6 +72,7 @@
             this.SegundosText.Name = "SegundosText";
             this.SegundosText.Size = new System.Drawing.Size(100, 20);
             this.SegundosText.TabIndex = 21;
+            this.SegundosText.TextChanged += new System.EventHandler(this.SegundosText_TextChanged);
             // 
             // label4
             // 
@@ -82,6 +84,7 @@
             this.label4.Size = new System.Drawing.Size(61, 18);
             this.label4.TabIndex = 20;
             this.label4.Text = "Minutos";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Minutostext
             // 
@@ -89,6 +92,7 @@
             this.Minutostext.Name = "Minutostext";
             this.Minutostext.Size = new System.Drawing.Size(100, 20);
             this.Minutostext.TabIndex = 19;
+            this.Minutostext.TextChanged += new System.EventHandler(this.Minutostext_TextChanged);
             // 
             // label2
             // 
@@ -100,6 +104,7 @@
             this.label2.Size = new System.Drawing.Size(107, 36);
             this.label2.TabIndex = 16;
             this.label2.Text = "Indique el Id del\r\nJugador";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // saliente
             // 
@@ -107,6 +112,7 @@
             this.saliente.Name = "saliente";
             this.saliente.Size = new System.Drawing.Size(100, 20);
             this.saliente.TabIndex = 15;
+            this.saliente.TextChanged += new System.EventHandler(this.saliente_TextChanged);
             // 
             // comboBox1
             // 
@@ -119,6 +125,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 26);
             this.comboBox1.TabIndex = 14;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -130,6 +137,7 @@
             this.label1.Size = new System.Drawing.Size(150, 18);
             this.label1.TabIndex = 13;
             this.label1.Text = "Seleccione el Equipo ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // registrar
             // 

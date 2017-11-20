@@ -16,7 +16,7 @@ namespace proyecto2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new registroGoles("CD1","CD2","13"));
+            Application.Run(new InformePartido()) ;
         }
     }
 }

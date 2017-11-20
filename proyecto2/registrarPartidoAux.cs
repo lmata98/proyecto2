@@ -27,6 +27,25 @@ namespace proyecto2
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            registrarPenales penal = new registrarPenales(equipo1,equipo2, idPartido);
+            penal.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MinutosExtra extra = new MinutosExtra(equipo1,equipo2,idPartido);
+            extra.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Principal nP = new Principal();
+            nP.Show();
+           // this.Close();
+        }
+
         public registrarPartidoAux(string e1, string e2, string idP)
         {
             InitializeComponent();
@@ -37,7 +56,8 @@ namespace proyecto2
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            registroTarjetas tarjeta = new registroTarjetas(equipo1,equipo2,idPartido);
+            tarjeta.Show();
         }
     }
 }

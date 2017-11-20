@@ -210,6 +210,46 @@ namespace proyecto2
 
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SegundosText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Minutostext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public registroGoles(string E1, string E2, string idP)
         {
             InitializeComponent();
