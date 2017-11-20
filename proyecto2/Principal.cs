@@ -37,5 +37,35 @@ namespace proyecto2
             InformePartido partido = new InformePartido();
             partido.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TablaGoleadores goles = new TablaGoleadores();
+            goles.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AYUDA ay = new AYUDA();
+            ay.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DiccionarioDatos ddt = new DiccionarioDatos();
+            ddt.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GrupoClasificacion grupos = new GrupoClasificacion();
+            grupos.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ModificarPartido mp = new ModificarPartido();
+            mp.Show();
+        }
     }
 }

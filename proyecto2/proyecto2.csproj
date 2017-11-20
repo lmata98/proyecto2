@@ -76,11 +76,23 @@
     <Compile Include="confederaciones.Designer.cs">
       <DependentUpon>confederaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="DiccionarioDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiccionarioDatos.Designer.cs">
+      <DependentUpon>DiccionarioDatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="EquipoTecnico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EquipoTecnico.Designer.cs">
       <DependentUpon>EquipoTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoClasificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupoClasificacion.Designer.cs">
+      <DependentUpon>GrupoClasificacion.cs</DependentUpon>
     </Compile>
     <Compile Include="InformePartido.cs">
       <SubType>Form</SubType>
@@ -88,17 +100,23 @@
     <Compile Include="InformePartido.Designer.cs">
       <DependentUpon>InformePartido.cs</DependentUpon>
     </Compile>
-    <Compile Include="MinRepo.cs">
+    <Compile Include="AYUDA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MinRepo.Designer.cs">
-      <DependentUpon>MinRepo.cs</DependentUpon>
+    <Compile Include="AYUDA.Designer.cs">
+      <DependentUpon>AYUDA.cs</DependentUpon>
     </Compile>
     <Compile Include="MinutosExtra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MinutosExtra.Designer.cs">
       <DependentUpon>MinutosExtra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarPartido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarPartido.Designer.cs">
+      <DependentUpon>ModificarPartido.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarCambios.cs">
       <SubType>Form</SubType>
@@ -156,20 +174,41 @@
     <Compile Include="registroTarjetas.Designer.cs">
       <DependentUpon>registroTarjetas.cs</DependentUpon>
     </Compile>
+    <Compile Include="TablaGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablaGeneral.Designer.cs">
+      <DependentUpon>TablaGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TablaGoleadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablaGoleadores.Designer.cs">
+      <DependentUpon>TablaGoleadores.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="confederaciones.resx">
       <DependentUpon>confederaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiccionarioDatos.resx">
+      <DependentUpon>DiccionarioDatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EquipoTecnico.resx">
       <DependentUpon>EquipoTecnico.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GrupoClasificacion.resx">
+      <DependentUpon>GrupoClasificacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InformePartido.resx">
       <DependentUpon>InformePartido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MinRepo.resx">
-      <DependentUpon>MinRepo.cs</DependentUpon>
+    <EmbeddedResource Include="AYUDA.resx">
+      <DependentUpon>AYUDA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MinutosExtra.resx">
       <DependentUpon>MinutosExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarPartido.resx">
+      <DependentUpon>ModificarPartido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarCambios.resx">
       <DependentUpon>RegistrarCambios.cs</DependentUpon>
@@ -207,6 +246,12 @@
     <EmbeddedResource Include="registroTarjetas.resx">
       <DependentUpon>registroTarjetas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TablaGeneral.resx">
+      <DependentUpon>TablaGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablaGoleadores.resx">
+      <DependentUpon>TablaGoleadores.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -232,6 +277,25 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

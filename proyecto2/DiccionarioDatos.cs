@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proyecto2
 {
-    public partial class MinRepo : Form
+    public partial class DiccionarioDatos : Form
     {
-        public MinRepo()
+        public DiccionarioDatos()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace proyecto2
 {
-    partial class MinRepo
+    partial class TablaGeneral
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // MinRepo
+            // TablaGeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "MinRepo";
-            this.Text = " ";
+            this.ClientSize = new System.Drawing.Size(417, 357);
+            this.Name = "TablaGeneral";
+            this.Text = "TablaGeneral";
             this.ResumeLayout(false);
 
         }
