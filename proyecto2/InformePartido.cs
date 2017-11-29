@@ -509,7 +509,7 @@ namespace proyecto2
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.ClearSelected();
-             
+            listBox1.Items.Clear();
             idPartido = IDPartido.Text;
             string validarPartido = coneccion(idPartido);
             if (validarPartido != "0")

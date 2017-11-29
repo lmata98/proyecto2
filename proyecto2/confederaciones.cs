@@ -66,7 +66,7 @@ namespace proyecto2
             string valor = textBox1.Text;
             valor = valor.ToUpper();
             if (valor == "")
-            {
+            { 
                 try
                 {
                     OleDbDataAdapter oda = new OleDbDataAdapter("select CONFEDERACIONES.NOMBRE as Confederación, CODIGO ,EQUIPOS.NOMBREPAIS as Países  from EQUIPOS,CONFEDERACIONES where  EQUIPOS.IDCONFEDERACIONES = CONFEDERACIONES.CODIGO order by (CONFEDERACIONES.NOMBRE )  ", con);
